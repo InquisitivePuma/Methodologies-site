@@ -1,1 +1,20 @@
-
+<<!DOCTYPE HTML>
+<HTML>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<Title>Development Methodologies</Title>
+<P>
+<Center><h1>Development Methodologies</h1></Center>
+</P>
+<P>
+<Center>Homepage</Center>
+</P>
+<P>Methodologies explained in this website include:</P>
+<UL>
+<LI><a href="">Waterfall</a></LI>
+<LI><a href="">AGILE</a></LI>
+<LI><a href="">Spiral</a></LI>
+<LI><a href="">RAD</a></LI>
+<LI><a href="">Extreme Programming (XP)</a></LI>
+<LI><a href="">SCRUM</a></LI>
