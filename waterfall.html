@@ -11,7 +11,6 @@
 <P>
 <Center class="title">Waterfall</Center>
 </P>
-  <P id="out">lll</P>
   <P>The waterfall methodology consists of six stages:<img src="waterfall-beauty-lets-explore-lets-get-lost.jpg" align="right" width="850" height="900" /></P>
   <P>Determining requirements, Analysis, Design, Coding,<br>
   Testing and maintainence.<br>
@@ -65,6 +64,7 @@
 <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Documentation</label><br/>
 <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Early and continuous delivery of product.</label><br/>
 </ul>
+    <P id="q1"></P>
 <p class="question">2. What does TELOS stand for?</p>
 <ul class="answers">
 <input type="radio" name="q2" value="a" id="q2a"><label for="q1a">Tol, Elijah, Liam, Oscar, Sam</label><br/>
@@ -72,6 +72,7 @@
 <input type="radio" name="q2" value="c" id="q2c"><label for="q1c">Telecomns, Emerging technologies, Light toutch <br>methods, Operational effectiveness, Signage</label><br/>
 <input type="radio" name="q2" value="d" id="q2d"><label for="q1d">Early and continuous delivery of product.</label><br/>
 </ul>
+    <P id="q2"></P>
 <p class="question">3. What is the key focus of the waterfall methodology?</p>
 <ul class="answers">
 <input type="radio" name="q3" value="a" id="q3a"><label for="q1a">Daily stand-up meetings </label><br/>
@@ -79,6 +80,7 @@
 <input type="radio" name="q3" value="c" id="q3c"><label for="q1c">Documentation</label><br/>
 <input type="radio" name="q3" value="d" id="q3d"><label for="q1d">Early and continuous delivery of product.</label><br/>
 </ul>
+    <P id="q3"></P>
 <p class="question">4. What does TELOS stand for?</p>
 <ul class="answers">
 <input type="radio" name="q4" value="a" id="q4a"><label for="q1a">Tol, Elijah, Liam, Oscar, Sam</label><br/>
@@ -86,6 +88,7 @@
 <input type="radio" name="q4" value="c" id="q4c"><label for="q1c">Telecomns, Emerging technologies, Light toutch <br>methods, Operational effectiveness, Signage</label><br/>
 <input type="radio" name="q4" value="d" id="q4d"><label for="q1d">Early and continuous delivery of product.</label><br/>
 </ul>
+    <P id="q4"></P>
 <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"  id="results" onclick="Answers()">
 Show me the answers!
 </div> 
@@ -93,14 +96,45 @@ Show me the answers!
 <script>function Answers()
 {
   var a1;
-  a1 = document.getElementById("q1a").value;
+  a1 = document.getElementById("q1a").checked;
   var b2;
-  a1 = document.getElementById("q2b").value;
+  a1 = document.getElementById("q2b").checked;
   var c3;
-  a1 = document.getElementById("q3c").value;
+  a1 = document.getElementById("q3c").checked;
   var d4;
-  a1 = document.getElementById("q4d").value;
-  document.getelementbyid("out").innerhtml=a1
+  a1 = document.getElementById("q4d").checked;
+  if a1==true
+    {
+      document.getElementById("q1").InnerHTML="Correct!"
+    }
+  else
+  {
+    document.getElementById("q1").InnerHTML="Incorrect!"
+  }
+  if b2==true
+    {
+      document.getElementById("q2").InnerHTML="Correct!"
+    }
+  else
+  {
+    document.getElementById("q2").InnerHTML="Incorrect!"
+  }
+  if c3==true
+    {
+      document.getElementById("q3").InnerHTML="Correct!"
+    }
+  else
+  {
+    document.getElementById("q3").InnerHTML="Incorrect!"
+  }
+  if d4==true
+    {
+      document.getElementById("q4").InnerHTML="Correct!"
+    }
+  else
+  {
+    document.getElementById("q4").InnerHTML="Incorrect!"
+  }
   }
 }
 </script>
