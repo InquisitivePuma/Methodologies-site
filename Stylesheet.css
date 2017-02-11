@@ -1,9 +1,0 @@
-//This is an external stylesheet. By using this, I can change the style of my whole website by etiting just one file.
-p {
-  margin-left 50px;
-}
-.title {
-  text-decoration: underline;
-  font-size 48px;
-  font-weight: bold;
-}
