@@ -1,0 +1,4 @@
+//This is an external stylesheet. By using this, I can change the style of my whole website by etiting just one file.
+p {
+  margin-left 2%
+}
