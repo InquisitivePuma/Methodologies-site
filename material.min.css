@@ -10,7 +10,7 @@
 
 /*edits: Removed default "body" styles, added below:*/
 p {
-  margin-left 50px;
+  margin-left 250px;
 }
 .title {
   text-decoration: underline;
